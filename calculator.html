@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+  <link rel="icon" href="calculator.png">
+</head>
+<body>
+  <div class="container">
+    <div class="calculate">
+      <div class="result">
+        <input class="output" >
+      </div>
+      <div class="keys">
+        <button  class="button" onclick="
+      function plus(){
+        document.querySelector('.output').value += '+';
+
+      }
+      plus();">&plus;</button>
+      <button  class="button" onclick="
+      function minus(){
+        document.querySelector('.output').value += '-';
+      }
+      minus();">&minus;</button>
+      <button  class="button1" onclick="
+      function clr(){
+        document.querySelector('.output').value='';
+      }
+      clr();
+      ">clr</button>
+      <button  class="button" onclick="
+      function one(){
+        document.querySelector('.output').value += '1';
+      }
+      one();
+      ">1</button>
+      <button class="button" onclick="
+      function two(){
+        document.querySelector('.output').value += '2';
+      }
+      two();
+      ">2</button>
+      <button class="button" onclick="
+      function three(){
+        document.querySelector('.output').value += '3';
+      }
+      three();
+      ">3</button>
+    
+      <button  class="button" onclick="
+      function four(){
+        document.querySelector('.output').value += '4';
+      }
+      four();">4</button>
+      <button  class="button" onclick="
+      function five(){
+        document.querySelector('.output').value += '5';
+      }
+      five();">5</button>
+      <button class="button" onclick="
+      function six(){
+        document.querySelector('.output').value += '6';
+      }
+      six();">6</button>
+      <button  class="button" onclick="
+      function seven(){
+        document.querySelector('.output').value += '7';
+      }
+      seven();">8</button>
+      
+      <button  class="button" onclick="
+      function eight(){
+        document.querySelector('.output').value += '8';
+      }
+      eight();">9</button>
+      <button class="button" onclick="
+      function nine(){
+        document.querySelector('.output').value += '9';
+      }
+      nine();">0</button>
+      <button class="button"  onclick="
+      function zero(){
+        document.querySelector('.output').value += '0';
+      }
+      zero();">0</button>
+      
+      <button  class="button" onclick="
+      function multiplication(){
+        document.querySelector('.output').value += '*';
+      }
+      multiplication();
+      ">&#215;</button>
+      <button  class="button" onclick="
+      function devide(){
+        document.querySelector('.output').value += '/';
+      }
+      devide();">&divide;</button>
+      <button  class="button2" onclick="
+      function modulus(){
+        document.querySelector('.output').value += '%';
+      }
+      modulus();">&percnt;</button>
+    
+      <button class="button2" onclick="
+      function equal(){
+      result = document.querySelector('.output').value;
+      document.querySelector('.output').value = eval(result);
+
+    }
+    equal();
+    ">&#61;</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+<script>
+  let result="";
+ 
+</script>
+</html>
